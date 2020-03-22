@@ -1,8 +1,8 @@
 const array = [1,2,3,4,5];
 const size = 4;
 
-myFizzbuzzFunc = {
-    fizzbuzz(array, size){
+myArrayChunkingFunc = {
+    arraychunking(array, size){
         const chunked = [];
        let index = 0;
 
@@ -11,9 +11,8 @@ myFizzbuzzFunc = {
            index += size;
        }
 
-       return chunked;
+       return String(chunked);
     }
 }
 
-// console.log(myFizzbuzzFunc.fizzbuzz(array, size))
-module.exports = myFizzbuzzFunc
+module.exports = myArrayChunkingFunc
