@@ -19,4 +19,4 @@ const myFizzbuzzFunc = {
 
 // console.log(myFizzbuzzFunc.fizzbuzz(n))
 
-module.exports(myFizzbuzzFunc.fizzbuzz(n))
+module.exports=myFizzbuzzFunc.fizzbuzz

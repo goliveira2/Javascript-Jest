@@ -15,5 +15,5 @@ const myCapitalizationFunc = {
         return result;
     }
 }
-
-module.exports = myCapitalizationFunc
+console.log(myCapitalizationFunc.capitalize(str))
+// module.exports = myCapitalizationFunc
