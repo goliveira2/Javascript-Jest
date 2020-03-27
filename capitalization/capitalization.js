@@ -12,8 +12,9 @@ const myCapitalizationFunc = {
             }
         }
 
-        return result;
+        return String(result);
     }
 }
-console.log(myCapitalizationFunc.capitalize(str))
-// module.exports = myCapitalizationFunc
+// console.log(myCapitalizationFunc.capitalize(str))
+
+module.exports = myCapitalizationFunc
