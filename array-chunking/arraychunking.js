@@ -2,7 +2,7 @@ const array = [1,2,3,4,5];
 const size = 4;
 
 myArrayChunkingFunc = {
-    arraychunking(array, size){
+    chunk(array, size){
         const chunked = [];
        let index = 0;
 
@@ -11,8 +11,8 @@ myArrayChunkingFunc = {
            index += size;
        }
 
-       return String(chunked);
+       return chunked;
     }
 }
 
-module.exports = myArrayChunkingFunc
+module.exports = myArrayChunkingFunc.chunk

@@ -15,6 +15,5 @@ const myCapitalizationFunc = {
         return String(result);
     }
 }
-// console.log(myCapitalizationFunc.capitalize(str))
 
-module.exports = myCapitalizationFunc
+module.exports = myCapitalizationFunc.capitalize
