@@ -22,7 +22,7 @@ test('can remove elements from a queue', () => {
 test('Order of elements is maintained', () => {
   const q = new Queue();
   q.add(1);
-  q.add(2); 
+  q.add(2);
   q.add(3);
   expect(q.remove()).toEqual(1);
   expect(q.remove()).toEqual(2);
